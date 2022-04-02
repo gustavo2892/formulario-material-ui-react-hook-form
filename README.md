@@ -6,7 +6,7 @@
 
 ## :rocket: Sobre a aula
 
-A aula teve como principal objetivo demostrar um formulário dsenvolvido com React Hook Form e Material-UI.
+A aula teve como principal objetivo demonstrar um formulário desenvolvido com React Hook Form e Material-UI.
 
 ### Tech Stack e bibliotecas
 
@@ -19,7 +19,7 @@ A aula teve como principal objetivo demostrar um formulário dsenvolvido com Rea
 
 ### Principais atividades
 
-- **`Criação da parte estético do formulário`**
+- **`Criação da parte estética do formulário`**
 
 - **`Regras de validação dos campos`**
 
