@@ -9,7 +9,6 @@ import { Input } from '../components/Input';
 * Observações
 * Box - DIV
 * Stack - DIV com flex-box
-*
 */
 
 interface ILoginForm {
@@ -31,10 +30,15 @@ const schema = yup.object().shape({
 const Home: NextPage = () => {
   const methods = useForm<ILoginForm>({
     resolver: yupResolver(schema),
+    defaultValues: {
+      email: "",
+      password: ""
+    }
   });
 
   const onSubmit = (data: ILoginForm) => {
     console.log(data);
+    methods.reset();
   };
 
   return (
